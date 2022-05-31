@@ -1,0 +1,57 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 30%;
+}
+
+.list-navegacion {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;  /*mayúsculas */
+     text-shadow: 3px 5px 20px rgb(5, 5, 5); 
+}
+
+a:link {
+    color: black;
+
+}
+a:visited{
+    color: blue;
+}
+a:hover{
+    color: rgb(13, 128, 38);
+}
+a:visited{
+    color: gray;
+}
+header {
+    width: 100%;
+    background-color: #ffffff;
+    padding-bottom: 60px;
+    padding-top: 20px;
+}
+
+.container-header {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.flexbox-space-around {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+

@@ -42,7 +42,18 @@ header {
     padding-bottom: 60px;
     padding-top: 20px;
 }
-
+/* .borde {
+    /* background-color: aqua; */ 
+    width: 99%;
+    margin-left: 5px;
+    margin-top: 10px;
+    height: 120px;
+    border-style: solid;
+    border-color: rgb(178, 178, 201) ;
+    border-radius: 15px;
+    border-width: 1px;
+}
+ */
 .container-header {
     width: 100%;
     margin-top: 100 px;
@@ -54,18 +65,28 @@ header {
     align-items: center;
     flex-wrap: wrap;
 }
-.borde {
-    /* background-color: aqua; */ 
-    width: 99%;
-    margin-left: 5px;
-    margin-top: 10px;
-    height: 120px;
-    border-style: solid;
-    border-color: rgb(178, 178, 201) ;
-    border-radius: 15px;
-    border-width: 1px;
-}
+
 img{
     height: 170px;
     width: 170px;
+}
+
+@media (max-width: 799px)
+
+
+{
+    .container {
+        width: 95%;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+   
+    .form {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .img {
+        border-bottom-right-radius: 0px;
+    }
 }

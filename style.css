@@ -11,7 +11,7 @@ nav {
 }
 
 .list-navegacion {
-    width: 100%;
+    width: 90%;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -45,7 +45,7 @@ header {
 
 .container-header {
     width: 100%;
-    margin-top: 100px;
+    margin-top: 100 px;
 }
 
 .flexbox-space-around {
@@ -54,4 +54,18 @@ header {
     align-items: center;
     flex-wrap: wrap;
 }
-
+.borde {
+    /* background-color: aqua; */ 
+    width: 99%;
+    margin-left: 5px;
+    margin-top: 10px;
+    height: 120px;
+    border-style: solid;
+    border-color: rgb(178, 178, 201) ;
+    border-radius: 15px;
+    border-width: 1px;
+}
+img{
+    height: 170px;
+    width: 170px;
+}

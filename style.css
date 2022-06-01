@@ -20,7 +20,9 @@ nav {
 
 .borde {
     
-        /* background-color: aqua;  */
+  
+    background: rgb(226,225,237);
+    background: linear-gradient(90deg, rgba(226,225,237,1) 0%, rgba(228,221,238,1) 49%, rgba(244,253,255,1) 100%);
        width: 99%;
        margin-left: 5px;
        margin-top: 10px;
@@ -70,9 +72,10 @@ header {
     flex-wrap: wrap;
 }
 
+
 img{
-    height: 170px;
-    width: 170px;
+    height: 100px;
+    width: 100px;
 }
 
 @media (max-width: 799px)

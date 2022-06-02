@@ -23,13 +23,13 @@ nav {
   
     background: rgb(226,225,237);
     background: linear-gradient(90deg, rgba(226,225,237,1) 0%, rgba(228,221,238,1) 49%, rgba(244,253,255,1) 100%);
-       width: 99%;
-       margin-left: 5px;
-       margin-top: 10px;
+       width: 100%;
+       /* margin-left: 5px; */
+       /* margin-top: 10px; */
        height: auto;
        border-style: solid;
        border-color: rgb(178, 178, 201) ;
-       border-radius: 15px;
+      /*  border-radius: 15px; */
        border-width: 1px;
     } 
 a {
